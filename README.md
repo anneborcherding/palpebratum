@@ -4,8 +4,8 @@ Repository containing complementary files for the paper "Bringing Light into the
 ## Abstract
 
 Securing the network interfaces of industrial control systems is essential for protecting critical infrastructure like water treatment plants and nuclear centrifuges from potential attacks.
-A key strategy to mitigate risks of successful attacks involves identifying and closing vulnerabilities exploitable through network interfaces using testing techniques such as fuzzing.
-While established techniques exist for graybox fuzzing, which  assume access to system binaries, industrial components often require blackbox testing due to the use of third-party components and regulatory constraints.
+A key strategy to mitigate the risks of successful attacks involves identifying and closing vulnerabilities exploitable through network interfaces using testing techniques such as fuzzing.
+While established techniques exist for graybox fuzzing, which assume access to system binaries, industrial components often require blackbox testing due to the use of third-party components and regulatory constraints.
 We propose Palpebratum, an approach that leverages Hidden Markov Models to approximate missing information in blackbox test scenarios.
 We evaluate Palpebratum’s performance in terms of code coverage, comparing it with two baseline blackbox fuzzers and the graybox fuzzer AFLnwe.
 Our results demonstrate that Palpebratum significantly outperforms one blackbox fuzzer, achieving an average of 4,379.33 basic blocks compared to 4,307.60 (p-value < 0.001).
