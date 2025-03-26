@@ -16,7 +16,7 @@ For more details on our approach, methodology, and experiments, refer to the pap
 
 ## Repository Contents
 
-* `evaluation_data`: This directory should contain the raw experiment data. As these files tend to be huge, you first need to download them from [here](link_to_be_specified)
+* `evaluation_data`: This directory should contain the raw experiment data. As these files tend to be huge, you first need to download them from [here](http://dx.doi.org/10.24406/fordatis/391)
 * `fuzzers`: The fuzzers used for our evaluation, based on LibAFL.
 * `notebooks`: Contains jupyter notebooks that process and visualize the raw data.
   * `behavior_approximation.ipynb`: Processes and visualizes the performance of different HMMs with respect to approximating the interestingness of test cases.
