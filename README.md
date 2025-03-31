@@ -14,10 +14,14 @@ These findings suggest that Palpebratum enhances blackbox test case generation a
 
 For more details on our approach, methodology, and experiments, refer to the paper.
 
-## Repository Contents
+## Repository Content
 
 * `evaluation_data`: This directory should contain the raw experiment data. As these files tend to be huge, you first need to download them from [here](http://dx.doi.org/10.24406/fordatis/391)
-* `fuzzers`: The fuzzers used for our evaluation, based on LibAFL.
 * `notebooks`: Contains jupyter notebooks that process and visualize the raw data.
   * `behavior_approximation.ipynb`: Processes and visualizes the performance of different HMMs with respect to approximating the interestingness of test cases.
   * `fuzzer_eval.ipynb`: Processes and visualizes the coverage data achieved by the different fuzzers considered in our evaluation.
+
+## Additional Content
+
+* The fuzzers, implemented based on LibAFL, can be found [here](https://github.com/anneborcherding/LibAFL)
+* The raw experiment data can be found [here](http://dx.doi.org/10.24406/fordatis/391)
